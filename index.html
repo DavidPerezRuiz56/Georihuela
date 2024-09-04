@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no,user-scalable=0"/>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="titulo">Introduce el código / Enter the code</h1>
+        <div class="userInput">
+            <input class="input" type="text" id='1' maxlength="1" onkeyup="clickEvent(this,'2')">
+            <input class="input" type="text" id="2" maxlength="1" onkeyup="clickEvent(this,'3')">
+            <input class="input" type="text" id="3" maxlength="1" onkeyup="clickEvent(this,'4')">
+            <input class="input" type="text" id="4" maxlength="1" onkeyup="clickEvent(this,'5')">
+            <input class="input" type="text" id="5" maxlength="1" onkeyup="clickEvent(this,'0')">
+        </div>
+        <button id="confirm" class="confirmar" onclick="comprobar()">CONFIRMAR / CONFIRM</button>
+
+          
+    </div>
+</body>
+</html>

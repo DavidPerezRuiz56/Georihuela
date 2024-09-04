@@ -1,0 +1,96 @@
+
+body {
+
+  padding: 0;
+  min-height: 100%;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #213555,
+    #4F709C
+  );  /*Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #213555,
+    #4F709C
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: linear-gradient(to right, rgb(33, 53, 85), rgb(79, 112, 156));
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+button {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.container {
+  /*border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.75);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  margin: auto;
+  padding: 0;
+  transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8); /* IE 9 */
+  -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+  -o-transform: scale(0.8, 0.8); /* Opera */
+  -moz-transform: scale(0.8, 0.8); /* Firefox */
+  display: flex;
+  width: min-content;
+  flex-flow: column;
+  height: auto;
+  width: auto;
+  /*border-radius: 20px;*/
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.userInput {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  box-shadow: 1px 5px;
+  margin: 10px;
+  height: 35px;
+  width: 65px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  background: #eef2f3;
+}
+
+h1 {
+  text-shadow: 1px 4px 2px black;
+  text-align: center;
+  font-family: sans-serif;
+  color: honeydew;
+}
+
+.confirmar {
+  box-shadow: 0px 0px 4px rgba(1, 0, 0, 0.2);
+  margin-top: 20px;
+  width: 230px;
+  height: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #6ba6b5; 
+
+}
